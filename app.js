@@ -4,7 +4,7 @@ async function obtenerPersonajes() {
     const divContPerfiles = document.querySelector("#contenedor-perfiles");
 
     console.log(personajes);//para verificar que funciono
-    console.log(personajes[0].image);
+    
     personajes.forEach((personaje, numeroPersonaje) => {
         if (personaje.image) {
             divContPerfiles.innerHTML += `
