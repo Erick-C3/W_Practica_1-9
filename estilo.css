@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+    color: white;
+}
+
+.perfil{
+    display: grid;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(47, 46, 46);
+    width: 150px;
+}
+
+.perfil > label{
+    text-align: center;
+}
+
+.perfil > img{
+    width: 100%;
+}
+
+#contenedor-perfiles{
+    display: flex;
+    flex-wrap: wrap;
+}
